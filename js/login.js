@@ -7,7 +7,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
   // Dummy login check (replace with Firebase or backend call)
   if (email === "test@example.com" && password === "password123") {
     alert("Login successful!");
-    window.location.href = "appointments.html";
+    window.location.href = "home.html";
   } else {
     alert("Invalid credentials. Please try again.");
   }
