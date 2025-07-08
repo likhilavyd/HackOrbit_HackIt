@@ -6,35 +6,15 @@
     <title>MyHealthMate</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" style="width: 100px;" href="Logo.png">
-    <style>
-    body {
-      background-color: #c9f3ff; /* Light blue background */
-      margin: 0;
-    }
-    .card {
-      border: none;
-      border-radius: 15px;
-      transition: transform 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .btn-danger {
-      background-color: #00c9f7;
-      border: none;
-    }
-    .btn-danger:hover {
-      background-color: #009fcb;
-    }
-    </style>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="css/home.css">
 </head>
-<body style="background-color: #CCF3FF;">
+<body>
     <!-- Navbar -->
     <div id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0dcaf0;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
-            <a class="navbar-brand colo" href="index.html" style="color: #033843"><b>MyHealthMate</b></a>
+            <a class="navbar-brand colo" href="index.html" id="title"><b>MyHealthMate</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +24,7 @@
                 <form class="d-flex ms-auto align-items-center">  
                 <!-- Search Bar -->
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn" style="color: #033843; border-color: #033843;" type="submit">Search</button>
+                <button class="btn" id="search" type="submit">Search</button>
                 </form>
             </div>
             </div>

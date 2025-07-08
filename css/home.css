@@ -1,0 +1,42 @@
+link{
+    width: 100px;
+}
+body{
+    background-color: #CCF3FF;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0dcaf0;
+}
+#title{
+    color: #033843;
+}
+#search{
+    color: #033843; 
+    border-color: #033843;
+}
+#join{
+   background-color: #0dcaf0; 
+   color: #033843;
+}
+body {
+    background-color: #c9f3ff; /* Light blue background */
+    margin: 0;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.btn-danger {
+    background-color: #00c9f7;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #009fcb;
+}

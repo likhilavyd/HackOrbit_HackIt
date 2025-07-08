@@ -6,14 +6,15 @@
     <title>MyHealthMate</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" style="width: 100px;" href="Logo.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="Logo.png">
 </head>
-<body style="background-color: #CCF3FF;">
+<body>
     <!-- Navbar -->
     <div id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0dcaf0;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
-            <a class="navbar-brand colo" href="index.html" style="color: #033843"><b>MyHealthMate</b></a>
+            <a class="navbar-brand colo" href="index.html" id="title"><b>MyHealthMate</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,7 +24,7 @@
                 <form class="d-flex ms-auto align-items-center">  
                 <!-- Search Bar -->
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn" style="color: #033843; border-color: #033843;" type="submit">Search</button>
+                <button class="btn" type="submit" id="search">Search</button>
                 </form>
             </div>
             </div>
@@ -41,7 +42,7 @@
                     MyHealthMate simplifies healthcare. Stay organized, connected, and informed with smart reminders, 
                     secure messaging, and shared access — so you and your loved ones are always one step ahead.</p> 
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
-                        <a href="login.html" class="btn btn-lg px-4 gap-3" style="background-color: #0dcaf0; color: #033843;">Join Us</a> 
+                        <a href="login.html" class="btn btn-lg px-4 gap-3" id="join">Join Us</a> 
                     </div> 
             </div> 
         </div>
