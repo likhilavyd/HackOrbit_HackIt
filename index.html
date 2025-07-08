@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: #CCF3FF;">
     <!-- Navbar -->
-     <div>
+    <div id="navbar">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #0dcaf0;">
             <div class="container-fluid">
             <a class="navbar-brand colo" href="index.html" style="color: #033843"><b>MyHealthMate</b></a>
@@ -20,7 +20,6 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Right aligned form with bell + search -->
                 <form class="d-flex ms-auto align-items-center">  
                 <!-- Search Bar -->
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -29,7 +28,218 @@
             </div>
             </div>
         </nav>
+    </div>
+
+    <!-- Main Part -->
+    <div id="main">
+        <div class="px-4 py-5 my-5 text-center"> 
+            <img class="d-block mx-auto mb-4" src="Logo.png" alt="" width="300"> 
+            <h1 class="display-5 fw-bold text-body-emphasis">Welcome to <b>MyHealthMate</b></h1> 
+            <div class="col-lg-6 mx-auto"> 
+                <p class="lead mb-4"> your all-in-one digital health companion. 
+                    From storing prescriptions and booking appointments to getting second opinions and syncing lab results, 
+                    MyHealthMate simplifies healthcare. Stay organized, connected, and informed with smart reminders, 
+                    secure messaging, and shared access — so you and your loved ones are always one step ahead.</p> 
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+                        <a href="#" class="btn btn-lg px-4 gap-3" style="background-color: #0dcaf0; color: #033843;">Join Us</a> 
+                    </div> 
+            </div> 
         </div>
-    
+    </div>
+
+    <!-- Features -->
+    <div id="features">
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">Features ✨</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+                <!-- Card 1 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-journal-text" viewBox="0 0 16 16">
+                        <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Your Prescriptions, Digitally Organized</h3>
+                    <p>Never lose a prescription again. Secure digital storage, smart reminders via SMS/WhatsApp, and easy refills — all in one place.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                        <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Appointments That Work for You</h3>
+                    <p>No more missed appointments or double bookings. Auto-schedule, reschedule, and track with calendar integration and real-time alerts.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-list-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Smarter To-Do Lists for Your Health</h3>
+                    <p>Simplify tests, labs, and procedures. Get checklists, lab sync, and timely alerts so you never miss a step.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                        <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Instant Chat. Smart Follow-ups</h3>
+                    <p>Stay connected with your doctor beyond the clinic. Secure chat, visit summaries, and voice-assisted FAQs — always just a tap away.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-folder-check" viewBox="0 0 16 16">
+                        <path d="m.5 3 .04.87a2 2 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14H9v-1H2.826a1 1 0 0 1-.995-.91l-.637-7A1 1 0 0 1 2.19 4h11.62a1 1 0 0 1 .996 1.09L14.54 8h1.005l.256-2.819A2 2 0 0 0 13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2m5.672-1a1 1 0 0 1 .707.293L7.586 3H2.19q-.362.002-.683.12L1.5 2.98a1 1 0 0 1 1-.98z"/>
+                        <path d="M15.854 10.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.707 0l-1.5-1.5a.5.5 0 0 1 .707-.708l1.146 1.147 2.646-2.647a.5.5 0 0 1 .708 0"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Your Health Records, All in One Place</h3>
+                    <p>Cloud-based, centralized, and always accessible. Shareable health vault with optional hospital sync and file sharing for seamless care.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-heart-pulse" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857q.09.083.176.171a3 3 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01zM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5"/>
+                        <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162z"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Get a Second Opinion Without the Wait</h3>
+                    <p>Peace of mind, remotely delivered. Upload reports, consult top specialists, and validate treatments online — without visiting in person.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-clipboard2-pulse" viewBox="0 0 16 16">
+                        <path d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5z"/>
+                        <path d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5z"/>
+                        <path d="M9.979 5.356a.5.5 0 0 0-.968.04L7.92 10.49l-.94-3.135a.5.5 0 0 0-.926-.08L4.69 10H4.5a.5.5 0 0 0 0 1H5a.5.5 0 0 0 .447-.276l.936-1.873 1.138 3.793a.5.5 0 0 0 .968-.04L9.58 7.51l.94 3.135A.5.5 0 0 0 11 11h.5a.5.5 0 0 0 0-1h-.128z"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Smarter Medication Guidance</h3>
+                    <p>Never miss a dose again. Get personalized medication schedules with clear instructions on when to take, how to take, and what to avoid — all tailored to your prescription.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1m-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5M5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1m0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Appointment Summary at a Glance</h3>
+                    <p>Review past visits anytime. Access detailed summaries of your doctor consultations, notes, and medical advice — all stored securely in one place.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#085C73" class="bi bi-person-hearts" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566M9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4m13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Care That Includes Everyone</h3>
+                    <p>Give access to your caregivers or family. Easy sharing of records, appointments, and alerts with those who support your health.</p>
+                    <a href="#" class="icon-link">
+                        Explore
+                        <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container"> 
+      <footer class="py-3 my-4"> 
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary color-dark">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary color-dark">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary color-dark">Pricing</a>
+          </li> 
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary color-dark">FAQs</a>
+          </li> 
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary color-dark">About</a>
+          </li> 
+        </ul> 
+          <p class="text-center text-body-secondary color-dark">© 2025 Company, Inc</p> 
+      </footer> 
+    </div>
+
 </body>
 </html>
