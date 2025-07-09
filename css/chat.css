@@ -1,0 +1,38 @@
+/* body */
+body {
+    background-color: #CCF3FF;
+    padding-top: 70px;
+}
+/* nav */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0dcaf0;
+}
+/* #title */
+#title {
+    color: #033843;
+}
+.chat-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+.chat-entry {
+    border-bottom: 1px solid #ddd;
+    padding: 0.75rem 0;
+}
+.chat-entry:last-child {
+    border-bottom: none;
+}
+.doctor-name {
+    font-weight: bold;
+    color: #033843;
+}
+.chat-preview {
+    font-size: 0.95rem;
+    color: #555;
+}
