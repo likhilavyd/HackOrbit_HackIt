@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Medication | MyHealthMate</title>
+  <title>Consultation Summary | MyHealthMate</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="icon" type="image/png" href="../assets/Logo.png">
-  <link rel="stylesheet" href="../css/medication.css">
-  <script defer src="../js/medication.js"></script>
+  <link rel="stylesheet" href="../css/summary.css">
+  <script defer src="../js/summary.js"></script>
 </head>
 <body>
 
@@ -25,30 +25,28 @@
         </nav>
     </div>
 
-  <!-- Medication Reminder Form -->
+  <!-- Main Section -->
   <div class="container py-5">
-    <h2 class="text-center fw-bold mb-4">Add New Medication Reminder</h2>
-    <form id="medicationForm" class="row g-3 justify-content-center">
-      <div class="col-md-5">
-        <input type="text" class="form-control" id="medName" placeholder="Medicine Name" required>
+    <h2 class="text-center fw-bold mb-4">Consultation Summary</h2>
+    
+    <!-- Input Form -->
+    <form id="summaryForm">
+      <div class="mb-4">
+        <label for="summaryInput" class="form-label">Enter Notes from Your Consultation</label>
+        <textarea class="form-control" id="summaryInput" rows="6" placeholder="Paste or type notes here..." required></textarea>
       </div>
-      <div class="col-md-3">
-        <input type="time" class="form-control" id="medTime"  placeholder="time" required>
-      </div>
-      <div class="col-12 text-center">
-        <button type="submit" class="btn btn-primary px-5" id="remainder">Add Reminder</button>
+      <div class="text-center">
+        <button class="btn btn-primary" id="summary" type="submit">Generate Summary</button>
       </div>
     </form>
-  </div>
 
-  <!-- Reminder List -->
-  <div class="container pb-5">
-    <h3 class="mb-3">Upcoming Medication Reminders</h3>
-    <ul class="list-group" id="reminderList">
-      <li class="list-group-item">Paracetamol at 08:00 AM</li>
-      <li class="list-group-item">Vitamin D3 at 01:00 PM</li>
-      <li class="list-group-item">Metformin at 08:30 PM</li>
-    </ul>
+    <!-- Generated Summary -->
+    <div class="mt-5" id="outputSection">
+      <h4>Your Summarized Notes</h4>
+      <p><strong>Summary:</strong><br>
+        <span id="summaryOutput"></span>
+      </p>
+    </div>
   </div>
 
   <!-- Footer -->
