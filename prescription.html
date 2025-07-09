@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prescriptions | MyHealthMate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/png" href="Logo.png">
+  <link rel="stylesheet" href="css/prescription.css">
+  <script src="js/prescription.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand colo" href="index.html" id="title"><b>MyHealthMate</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </div>
+            </div>
+        </nav>
+    </div>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Upload Section -->
+    <div class="py-5 text-center">
+      <h2 class="fw-bold">Upload New Prescription</h2>
+      <p class="text-muted">Choose a file to upload (PDF, JPG, PNG)</p>
+      <form id="prescriptionForm" class="d-flex flex-column align-items-center gap-3">
+        <input type="file" class="form-control w-50" id="prescriptionFile" placeholder="Upload your prescription" accept=".pdf,.jpg,.jpeg,.png" required>
+        <button type="submit" class="btn btn-primary px-4" id="upload">Upload</button>
+      </form>
+    </div>
+
+    <!-- Prescription List -->
+    <div class="mb-5">
+      <h3 class="mb-3">Your Prescription Records</h3>
+      <ul class="list-group" id="prescriptionList">
+        <li class="list-group-item">prescription_march.pdf</li>
+        <li class="list-group-item">scan_report_april.png</li>
+        <li class="list-group-item">bloodtest_result_may.jpg</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="py-4 my-4 border-top">
+      <p class="text-center text-muted">© 2025 MyHealthMate</p>
+    </footer>
+  </div>
+
+</body>
+</html>
