@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Second Medical Opinion | MyHealthMate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/png" href="../assets/Logo.png">
+  <link rel="stylesheet" href="../css/opinion.css">
+  <script defer src="../js/opinion.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand colo" href="home.html" id="title"><b>MyHealthMate</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex ms-auto align-items-center">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" id="search" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Upload Section -->
+  <div class="container py-5 mt-5">
+    <h2 class="text-center fw-bold mb-4">Get a Second Medical Opinion</h2>
+    <form id="opinionForm" class="row g-3 justify-content-center">
+      <div class="col-md-6">
+        <label for="reportUpload" class="form-label">Upload Report (PDF/Image)</label>
+        <input type="file" class="form-control" id="reportUpload" accept=".pdf,.jpg,.jpeg,.png" required>
+      </div>
+      <div class="col-md-6">
+        <label for="questionText" class="form-label">Describe Your Concern</label>
+        <input type="text" class="form-control" id="questionText" placeholder="Enter your concern or question" required>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary px-5" id="post">Post to Community</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Community Section -->
+  <div class="container pb-5">
+    <h3 class="mb-3">Community Posts</h3>
+    <ul class="list-group" id="communityPosts">
+      <li class="list-group-item">
+        <strong>scan-report-june.pdf</strong><br>
+        I have recurring headaches and dizziness. Is this serious?<br>
+        <em>Replies: 0</em>
+      </li>
+      <li class="list-group-item">
+        <strong>bloodwork-2025.png</strong><br>
+        My cholesterol levels are fluctuating. Should I be concerned?<br>
+        <em>Replies: 0</em>
+      </li>
+      <li class="list-group-item">
+        <strong>xray-spine.jpg</strong><br>
+        Experiencing lower back pain. Anyone seen similar symptoms?<br>
+        <em>Replies: 0</em>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="py-4 my-4 border-top">
+      <p class="text-center text-muted">© 2025 MyHealthMate</p>
+    </footer>
+  </div>
+
+</body>
+</html>
