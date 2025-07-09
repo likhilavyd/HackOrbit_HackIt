@@ -1,0 +1,30 @@
+/* body */
+body {
+    background-color: #CCF3FF;
+    padding-top: 70px;
+}
+/* nav */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0dcaf0;
+}
+/* #title */
+#title {
+    color: #033843;
+}
+.file-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+.file-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
