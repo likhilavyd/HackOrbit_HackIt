@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medication | MyHealthMate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/png" href="../assets/Logo.png">
+  <link rel="stylesheet" href="../css/medication.css">
+  <script defer src="../js/medication.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand colo" href="index.html" id="title"><b>MyHealthMate</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex ms-auto align-items-center">  
+                <!-- Search Bar -->
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn" id="search" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </div>
+
+  <!-- Medication Reminder Form -->
+  <div class="container py-5">
+    <h2 class="text-center fw-bold mb-4">Add New Medication Reminder</h2>
+    <form id="medicationForm" class="row g-3 justify-content-center">
+      <div class="col-md-5">
+        <input type="text" class="form-control" id="medName" placeholder="Medicine Name" required>
+      </div>
+      <div class="col-md-3">
+        <input type="time" class="form-control" id="medTime"  placeholder="time" required>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary px-5" id="remainder">Add Reminder</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Reminder List -->
+  <div class="container pb-5">
+    <h3 class="mb-3">Upcoming Medication Reminders</h3>
+    <ul class="list-group" id="reminderList">
+      <li class="list-group-item">Paracetamol at 08:00 AM</li>
+      <li class="list-group-item">Vitamin D3 at 01:00 PM</li>
+      <li class="list-group-item">Metformin at 08:30 PM</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="py-4 my-4 border-top">
+      <p class="text-center text-muted">© 2025 MyHealthMate</p>
+    </footer>
+  </div>
+
+</body>
+</html>
