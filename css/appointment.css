@@ -1,0 +1,20 @@
+/* body */
+body {
+    background-color: #CCF3FF;
+    padding-top: 70px;
+}
+/* nav */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #0dcaf0;
+}
+/* #title */
+#title {
+    color: #033843;
+}
+#add {
+    background-color: #0dcaf0;
+    color: #033843;
+}
